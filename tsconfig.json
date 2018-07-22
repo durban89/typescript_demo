@@ -1,9 +1,11 @@
 {
-    "files": [
-        "src/*.ts"
+    "include": [
+        "src/**/*.ts"
     ],
     "compilerOptions": {
+        "outDir": "./dist",
         "noImplicitAny": true,
+        "strictNullChecks": true,
         "target": "es2015"
     }
 }

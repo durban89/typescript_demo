@@ -4,7 +4,8 @@
   "description": "TypeScript Demo",
   "main": "./dist/mian.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx gulp"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,7 @@
     "gulp-typescript": "^5.0.0-alpha.3",
     "gulp-uglify": "^3.0.0",
     "gulp-util": "^3.0.8",
+    "ts-node": "^7.0.0",
     "tsify": "^4.0.0",
     "typescript": "^2.9.2",
     "vinyl-buffer": "^1.0.1",
