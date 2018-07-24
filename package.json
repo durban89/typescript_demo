@@ -1,0 +1,41 @@
+{
+  "name": "typescript_demo",
+  "version": "1.0.2",
+  "description": "TypeScript Demo",
+  "main": "./dist/mian.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/durban89/typescript_demo.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "Demo"
+  ],
+  "author": "durban.zhang <durban.zhang@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/durban89/typescript_demo/issues"
+  },
+  "homepage": "https://github.com/durban89/typescript_demo#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babelify": "^8.0.0",
+    "browserify": "^16.2.2",
+    "gulp": "^4.0.0",
+    "gulp-cli": "^2.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-typescript": "^5.0.0-alpha.3",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "ts-node": "^7.0.0",
+    "tsify": "^4.0.0",
+    "typescript": "^2.9.2",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.11.0"
+  }
+}
