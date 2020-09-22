@@ -1,9 +1,11 @@
-import { StringValidator } from './Validation';
+/// <reference path="Validation.ts" />
 
-const letterRegexp = /^[A-Za-z]+/;
+namespace Validation {
+  const letterRegexp = /^[A-Za-z]+/;
 
-export class LettersOnlyValidator implements StringValidator {
-  isAcceptable(s: string): boolean {
-    return letterRegexp.test(s);
+  export class LettersOnlyValidator implements StringValidator {
+    isAcceptable(s: string): boolean {
+      return letterRegexp.test(s);
+    }
   }
 }

@@ -1,13 +1,13 @@
-import { StringValidator } from './Validation';
-import { ZipCodeValidator } from './ZipCodeValidator';
-import { LettersOnlyValidator } from './LettersOnlyValidator';
+/// <reference path="Validation.ts" />
+/// <reference path="LettersOnlyValidator.ts" />
+/// <reference path="ZipCodeValidator.ts" />
 
 // 测试数据
 let strings = ["Hello", "98052", "101"];
 // 
-let validators:{ [s: string]: StringValidator } = {};
-validators["zip code validator"] = new ZipCodeValidator();
-validators["letter validator"] = new LettersOnlyValidator();
+let validators:{ [s: string]: Validation.StringValidator } = {};
+validators["zip code validator"] = new Validation.ZipCodeValidator();
+validators["letter validator"] = new Validation.LettersOnlyValidator();
 
 strings.forEach((e) => {
   for (let name in validators) {
